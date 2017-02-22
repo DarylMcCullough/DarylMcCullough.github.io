@@ -1,0 +1,10 @@
+jekyll serve --host $IP --port $PORT
+
+// Find the process
+lsof -i tcp:$PORT
+(will show process ids)
+
+// Kill the process
+kill -9 PID
+
+Preview URL: https://bloc-portfolio-darylmcc.c9users.io/
